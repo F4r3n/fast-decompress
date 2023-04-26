@@ -252,6 +252,7 @@ if (!nativeBinding) {
   throw new Error(`Failed to load native binding`)
 }
 
-const { untar } = nativeBinding
+const { untar, tar } = nativeBinding
 
 module.exports.untar = untar
+module.exports.tar = tar

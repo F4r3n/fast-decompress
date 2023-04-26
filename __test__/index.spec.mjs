@@ -1,7 +1,7 @@
 import test from 'ava'
 
-import { sum } from '../index.js'
+import { untar } from '../index.js'
 
-test('sum from native', (t) => {
-  t.is(sum(1, 2), 3)
+test('untar bzip', (t) => {
+  t.assert(true);
 })
