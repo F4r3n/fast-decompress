@@ -1,16 +1,13 @@
 {
-  "name": "@gkotulski/fast-lzma",
+  "name": "@gkotulski/fast-decompress",
   "version": "0.0.0",
   "main": "index.js",
   "types": "index.d.ts",
   "napi": {
-    "name": "fast-lzma",
+    "name": "fast-decompress",
     "triples": {}
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/f4r3n/fast-lzma.git"
-  },
+  "repository": "https://github.com/F4r3n/fast-decompress.git",
   "license": "MIT",
   "devDependencies": {
     "@napi-rs/cli": "^2.15.2",

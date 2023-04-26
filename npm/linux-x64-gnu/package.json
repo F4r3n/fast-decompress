@@ -1,5 +1,5 @@
 {
-  "name": "@gkotulski/fast-lzma-linux-x64-gnu",
+  "name": "@gkotulski/fast-decompress-linux-x64-gnu",
   "version": "0.0.0",
   "os": [
     "linux"
@@ -7,14 +7,15 @@
   "cpu": [
     "x64"
   ],
-  "main": "fast-lzma.linux-x64-gnu.node",
+  "main": "fast-decompress.linux-x64-gnu.node",
   "files": [
-    "fast-lzma.linux-x64-gnu.node"
+    "fast-decompress.linux-x64-gnu.node"
   ],
   "license": "MIT",
   "engines": {
     "node": ">= 10"
   },
+  "repository": "https://github.com/F4r3n/fast-decompress.git",
   "libc": [
     "glibc"
   ]

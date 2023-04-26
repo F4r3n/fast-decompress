@@ -12,9 +12,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@gkotulski/fast-lzma@workspace:.":
+"@gkotulski/fast-decompress@workspace:.":
   version: 0.0.0-use.local
-  resolution: "@gkotulski/fast-lzma@workspace:."
+  resolution: "@gkotulski/fast-decompress@workspace:."
   dependencies:
     "@napi-rs/cli": ^2.15.2
     ava: ^5.1.1

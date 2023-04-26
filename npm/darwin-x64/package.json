@@ -1,5 +1,5 @@
 {
-  "name": "@gkotulski/fast-lzma-darwin-x64",
+  "name": "@gkotulski/fast-decompress-darwin-x64",
   "version": "0.0.0",
   "os": [
     "darwin"
@@ -7,12 +7,13 @@
   "cpu": [
     "x64"
   ],
-  "main": "fast-lzma.darwin-x64.node",
+  "main": "fast-decompress.darwin-x64.node",
   "files": [
-    "fast-lzma.darwin-x64.node"
+    "fast-decompress.darwin-x64.node"
   ],
   "license": "MIT",
   "engines": {
     "node": ">= 10"
-  }
+  },
+  "repository": "https://github.com/F4r3n/fast-decompress.git"
 }

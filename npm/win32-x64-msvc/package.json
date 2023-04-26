@@ -1,5 +1,5 @@
 {
-  "name": "@gkotulski/fast-lzma-win32-x64-msvc",
+  "name": "@gkotulski/fast-decompress-win32-x64-msvc",
   "version": "0.0.0",
   "os": [
     "win32"
@@ -7,12 +7,13 @@
   "cpu": [
     "x64"
   ],
-  "main": "fast-lzma.win32-x64-msvc.node",
+  "main": "fast-decompress.win32-x64-msvc.node",
   "files": [
-    "fast-lzma.win32-x64-msvc.node"
+    "fast-decompress.win32-x64-msvc.node"
   ],
   "license": "MIT",
   "engines": {
     "node": ">= 10"
-  }
+  },
+  "repository": "https://github.com/F4r3n/fast-decompress.git"
 }
