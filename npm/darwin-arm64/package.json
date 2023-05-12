@@ -1,0 +1,19 @@
+{
+  "name": "@gkotulski/fast-decompress-darwin-arm64",
+  "version": "0.0.2",
+  "os": [
+    "darwin"
+  ],
+  "cpu": [
+    "arm64"
+  ],
+  "main": "fast-decompress.darwin-arm64.node",
+  "files": [
+    "fast-decompress.darwin-arm64.node"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10"
+  },
+  "repository": "https://github.com/F4r3n/fast-decompress.git"
+}

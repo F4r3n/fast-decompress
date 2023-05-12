@@ -1,0 +1,16 @@
+{
+  "name": "@gkotulski/fast-decompress-darwin-universal",
+  "version": "0.0.2",
+  "os": [
+    "darwin"
+  ],
+  "main": "fast-decompress.darwin-universal.node",
+  "files": [
+    "fast-decompress.darwin-universal.node"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10"
+  },
+  "repository": "https://github.com/F4r3n/fast-decompress.git"
+}

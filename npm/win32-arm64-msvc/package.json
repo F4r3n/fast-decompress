@@ -1,0 +1,19 @@
+{
+  "name": "@gkotulski/fast-decompress-win32-arm64-msvc",
+  "version": "0.0.2",
+  "os": [
+    "win32"
+  ],
+  "cpu": [
+    "arm64"
+  ],
+  "main": "fast-decompress.win32-arm64-msvc.node",
+  "files": [
+    "fast-decompress.win32-arm64-msvc.node"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10"
+  },
+  "repository": "https://github.com/F4r3n/fast-decompress.git"
+}
