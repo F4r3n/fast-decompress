@@ -1,11 +1,17 @@
 {
   "name": "@gkotulski/fast-decompress",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "index.js",
   "types": "index.d.ts",
   "napi": {
     "name": "fast-decompress",
-    "triples": {}
+    "triples": {
+      "additional": [
+        "aarch64-apple-darwin",
+        "aarch64-pc-windows-msvc",
+        "universal-apple-darwin"
+      ]
+    }
   },
   "repository": "https://github.com/F4r3n/fast-decompress.git",
   "license": "MIT",
