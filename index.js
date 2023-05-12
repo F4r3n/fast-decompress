@@ -252,7 +252,7 @@ if (!nativeBinding) {
   throw new Error(`Failed to load native binding`)
 }
 
-const { untar, tar } = nativeBinding
+const { untarLzma, untarBzip2 } = nativeBinding
 
-module.exports.untar = untar
-module.exports.tar = tar
+module.exports.untarLzma = untarLzma
+module.exports.untarBzip2 = untarBzip2

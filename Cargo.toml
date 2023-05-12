@@ -8,6 +8,7 @@ crate-type = ["cdylib"]
 
 [dependencies]
 bzip2 = "0.4.4"
+lzma-rs = { version = "0.3.0", features = ["stream"] }
 # Default enable napi4 feature, see https://nodejs.org/api/n-api.html#node-api-version-matrix
 napi = { version = "2.12.0", default-features = false, features = ["napi4"] }
 napi-derive = "2.12.2"
